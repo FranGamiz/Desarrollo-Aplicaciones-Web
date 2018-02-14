@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+ 
+#fondo  {   background-color: lightblue;
+            background-image: url("../imagenes/sky.jpg");
+            background-size: cover;
+            border: 2px solid black;
+            width: 800px;
+            height: 800px;
+            margin: 0 auto;
+            position: relative;
+            top: 50px;
+        }
+#suelo  {   background-color: darkolivegreen;
+            width: 800px;
+            height: 100px;
+            position: absolute;
+            top: 752px;
+            left: 560px;
+        }
+#muro   {   background-color: sandybrown;
+            width: 300px;
+            height: 150px;
+            position: absolute;
+            top: 650px;
+            left: 820px;
+            border-left: 1px solid sienna;
+            border-right: 1px solid sienna;
+        }
+#puerta {   background-color: saddlebrown;
+            width: 60px;
+            height: 80px;
+            position: absolute;
+            top: 720px;
+            left: 940px;
+        }
+#torre1 {   background-color: sandybrown;
+            width: 80px;
+            height: 300px;
+            position: absolute;
+            top: 500px;
+            left: 740px;
+        }
+#techo1 {   background-color: darkred;
+            width: 150px;
+            height: 70px;
+            position: absolute;
+            top: 460px;
+            left: 705px;
+        }
+#pico1  {   background-color: darkred;
+            width: 25px;
+            height: 10px;
+            position: absolute;
+            top: 450px;
+            left: 705px;
+        }
+#pico2  {   background-color: darkred;
+            width: 25px;
+            height: 10px;
+            position: absolute;
+            top: 450px;
+            left: 830px;
+        }
+#pico3  {   background-color: darkred;
+            width: 25px;
+            height: 10px;
+            position: absolute;
+            top: 450px;
+            left: 766px;
+        }
+#ventana1    {  background-color: black;
+                width:  40px;
+                height: 50px;
+                position: absolute;
+                top:    600px;
+                left: 760px;
+            }
+
+
+#torre2 {   background-color: sandybrown;
+                width: 80px;
+                height: 300px;
+                position: absolute;
+                top: 500px;
+                left: 1122px;
+        }
+#techo2 {   background-color: darkred;
+                width: 150px;
+                height: 70px;
+                position: absolute;
+                top: 460px;
+                left: 1087px;
+        }
+#pico4  {   background-color: darkred;
+                width: 25px;
+                height: 10px;
+                position: absolute;
+                top: 450px;
+                left: 1087px;
+        }
+#pico5  {   background-color: darkred;
+                width: 25px;
+                height: 10px;
+                position: absolute;
+                top: 450px;
+                left: 1150px;
+        }
+#pico6  {   background-color: darkred;
+                width: 25px;
+                height: 10px;
+                position: absolute;
+                top: 450px;
+                left: 1212px;
+        }
+#ventana2    {  background-color: black;
+                    width:  40px;
+                    height: 50px;
+                    position: absolute;
+                    top:    600px;
+                    left: 1142px;
+            }
+    
