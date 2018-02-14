@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.letrauno   {font-family: 'Open Sans Condensed', sans-serif;}
+.encabezado {font-family: 'PT Sans Narrow', sans-serif;}
+
+.encabezado section {   width: 100%;
+                        background-color: rgb(83, 85, 85);
+                        overflow: auto;
+                    }
+.encabezado section p   {   padding: 5px;
+                            width: 15%;
+                            text-align: center;
+                            display: inline-block;
+                            font-size: 1.1rem;
+                            color: white;
+                        }
+.encabezado section p + p + p   {   float: right;
+                                    text-align: left;
+                                    font-size: 1.1rem;
+                                }
+
+.encabezado section p a {   text-decoration: none;
+                            color: white;
+                            padding-right: 3%;
+                        }
+.limpiar    {clear: both;}
+.encabezado nav {}
+.encabezado nav ul  {   list-style: none;
+                        width: 50%;
+                        margin: 0 auto;
+                    }
+.encabezado nav ul li   {   float: left;
+                            padding: 2%;
+                            width: 21%;
+                            text-align: center;
+                        }
+
+#pruebados  {   width: 100%;
+                background-color: rgb(212, 236, 212);
+
+            }
+#pruebados ul   {   list-style: none;
+                    width: 50%;
+                    margin: 0 auto;
+                    padding-left: 20%;
+                }
+#pruebados ul li    {   float: left;
+                        width: auto;
+                        padding: 0;
+                        margin: 0;
+                        width: 15%;
+                        text-align: center;
+                    }
+#pruebados ul li a  {   padding: 10px;
+                        display: block;
+                        text-decoration: none;
+                        color: darkgreen;
+                        text-transform: uppercase;
+                    }
+#pruebados ul li a:hover    {   color: greenyellow;
+                                font-weight: 900;
+                                background-color: darkgreen;
+                            }
+html    {height: 100%;}
+body    {height: 100%;}
+#fondo  {   width: 100%;
+            background-image: url('../imagenes/paisaje.jpg');
+            background-size: cover;
+            height: 100%;
+            position: relative;
+            background-position: center center;
+        }
+#mascara    {   width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                z-index: 0;
+            }
+#fondo h1   {   color: white;
+                font-size: 5em;
+                text-align: center;
+                font-family: 'PT Sans Narrow', sans-serif;
+                z-index: 100;
+                text-shadow: 2px, 2px, 2px, white;
+                padding-top: 50px;
+            }
+#fondo2 {   width: 100%;
+            background-image: url('../imagenes/paisaje.jpg');
+            background-size: cover;
+            height: 100%;
+            position: relative;
+            background-position: center center;
+            z-index: -20;
+        }
+#fondo2:before  {   content: '';
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    z-index: -10;
+                }
+#fondo2 h1  {   z-index: 20;
+                color: yellow;
+                font-size: 5em;
+                text-align: center;
+                font-family: 'PT Sans Narrow', sans-serif;
+                z-index: 100;
+                text-shadow: 2px, 2px, 2px, white;
+                padding-top: 50px;
+            }
